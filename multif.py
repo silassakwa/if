@@ -1,9 +1,10 @@
+import sys
 '''
 A python script to use multiple if
 '''
 Marks=int(input("Enter student marks: "))
 if Marks>=0 and Marks<=30:
-    print("{}E".format(Marks))
+    print("{}E".format(Marks))0
 elif Marks>=31 and Marks<=40:
     print("{} D+".format(Marks))
 elif Marks>=41 and Marks<=49:
@@ -15,4 +16,6 @@ elif Marks>=60 and Marks<=69:
 elif Marks>=70 and Marks<=79:
     print("{} B+".format(Marks)) 
 elif Marks>=80 and Marks<=89:
-    print("{} A".format(Marks))                  
+    print("{} A".format(Marks)) 
+else:
+    sys.exit()                 
